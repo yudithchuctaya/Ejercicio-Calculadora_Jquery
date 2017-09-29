@@ -1,21 +1,48 @@
+/**{
+      outline: 2px solid red;  
+}*/
+html,body,section{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Khula",sans-serif;
+    background-color:ghostwhite; 
 
+}
+h1{
+    margin-left: 38%;
+    font-size: 40px;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+.caja{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: url('http://i52.tinypic.com/2ldjcdt.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
 
 .head{
     height: 80px;
     border-top-left-radius:44px;
     border-top-right-radius: 44px;
+
 }
 .gray-dark{
     background-color:#3b444b;
+    box-shadow:rgba(255,255,255,0.3) 0px 0px 1px, inset rgba(0,0,0,1) 0px 1px 2px 1px;
 }
 .gray-dark:hover{
     background: orange;
 }
 .gray-medium{
     background-color: #62676B; 
+    box-shadow:rgba(255,255,255,0.3) 0px 0px 1px, inset rgba(0,0,0,1) 0px 1px 2px 1px;
 }
 .gray-green{
-    background-color:darkslategray; 
+    background-color:darkslategray;
+    box-shadow:rgba(255,255,255,0.3) 0px 0px 1px, inset rgba(0,0,0,1) 0px 1px 2px 1px; 
 }
 .gray-green:hover{
     background-color:#18bc9c; 
@@ -57,6 +84,7 @@ input:focus{
     border-bottom-left-radius: 44px;
     border-bottom-right-radius:44px;
     text-align: center; 
+
 }
 .screen-case{
     height: 42px;
@@ -78,11 +106,4 @@ hr{
     background:white;
     height: 2px;
     border-style: none;
-}
-html,body,section{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: "Khula",sans-serif;
-    background-color:ghostwhite; 
 }
