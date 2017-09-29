@@ -8,11 +8,17 @@
 .gray-dark{
     background-color:#3b444b;
 }
+.gray-dark:hover{
+    background: orange;
+}
 .gray-medium{
     background-color: #62676B; 
 }
 .gray-green{
     background-color:darkslategray; 
+}
+.gray-green:hover{
+    background-color:#18bc9c; 
 }
 .gray-soft{
     background-color:#bac7b6; 
